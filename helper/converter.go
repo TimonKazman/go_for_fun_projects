@@ -22,7 +22,7 @@ func ConvertStringToFloat(string_value string) (float64, error) {
 func ConvertStringToInt(string_value string) (int64, error) {
 	i, err := strconv.ParseInt(string_value, 10, 0)
 	if err != nil {
-		return math.MinInt64, errors.New("invalide operation! Try again by choosing '1' or '2'.")
+		return math.MinInt64, errors.New("invalide operation! Try again by choosing '1' or '2'")
 	}
 	return i, nil
 }
