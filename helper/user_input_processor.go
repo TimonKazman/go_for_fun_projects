@@ -12,9 +12,9 @@ import (
 const InflationRatePercent = 2.4
 
 type UserData struct {
-	FirstName string
-	LastName  string
-	Request   string
+	FirstName string `json:"first_name"`
+	LastName  string `json:"last_name"`
+	Request   string `json:"request"`
 }
 
 // Method
