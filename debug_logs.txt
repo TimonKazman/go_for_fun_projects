@@ -1,0 +1,18 @@
+{"time":"2025-01-13T22:07:15.5657577+01:00","level":"INFO","msg":"start calculator - user input requested"}
+{"time":"2025-01-13T22:08:25.0682783+01:00","level":"INFO","msg":"start calculator - user input requested"}
+{"time":"2025-01-13T22:11:05.704804+01:00","level":"DEBUG","msg":"start calculator - user input requested"}
+{"time":"2025-01-13T22:11:09.1971566+01:00","level":"DEBUG","msg":"start calculating future values"}
+{"time":"2025-01-13T22:11:09.2009918+01:00","level":"DEBUG","msg":"close calculator"}
+{"time":"2025-02-16T22:17:06.7496015+01:00","level":"DEBUG","msg":"start calculator - user input requested"}
+{"time":"2025-02-16T22:17:17.9188974+01:00","level":"DEBUG","msg":"start calculating future values"}
+{"time":"2025-02-16T22:17:17.9258315+01:00","level":"DEBUG","msg":"close calculator"}
+{"time":"2025-03-01T11:13:58.3371329+01:00","level":"DEBUG","msg":"start calculator - user input requested"}
+{"time":"2025-03-01T11:14:06.9398612+01:00","level":"DEBUG","msg":"start calculating future values"}
+{"time":"2025-03-01T11:14:06.9490345+01:00","level":"DEBUG","msg":"close calculator"}
+{"time":"2025-04-05T19:07:45.9689988+02:00","level":"DEBUG","msg":"start calculator - user input requested"}
+{"time":"2025-04-05T19:08:08.6271705+02:00","level":"DEBUG","msg":"start calculating future values"}
+{"time":"2025-04-05T19:08:08.6357615+02:00","level":"DEBUG","msg":"close calculator"}
+{"time":"2025-04-05T22:46:48.0826536+02:00","level":"INFO","msg":"Successfully saved user data to json file","userInput":"Timon;Kazman;I would like to go for a super walk"}
+{"time":"2025-04-05T22:48:43.3070654+02:00","level":"INFO","msg":"Successfully saved user data to json file","userInput":"Yolo;Kanliu;Hello Request"}
+{"time":"2025-04-05T22:50:03.625465+02:00","level":"INFO","msg":"Successfully saved user data to json file","userInput":"Yoldk;lkeout;testtesttes"}
+{"time":"2025-04-06T10:46:55.4511658+02:00","level":"INFO","msg":"Successfully saved user data to json file","userInput":"NextName;LastNextName;only for Testing"}
