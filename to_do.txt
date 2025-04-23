@@ -1,4 +1,4 @@
 Optional: read from txt file to get value if same name
 
-go through chatgpt and ask for each file what could be enhanced and where 
+1. go through chatgpt and ask for each file what could be enhanced and where 
 did I not keep best practise...

@@ -3,7 +3,10 @@ package main
 import (
 	"fmt"
 	"go_for_fun_projects/helper"
+	"log"
 	"log/slog"
+
+	"github.com/manifoldco/promptui"
 )
 
 func start_calculator(logger *slog.Logger) {
@@ -49,16 +52,50 @@ func process_user_request(logger *slog.Logger) {
 
 }
 
+func select_payment(logger *slog.Logger) {
+	items := []string{"Credit Card", "PayPal", "Crypto Wallet"}
+
+	prompt := promptui.Select{
+		Label: "Select Payment Method",
+		Items: items,
+	}
+
+	_, result, err := prompt.Run()
+	if err != nil {
+		log.Fatalf("Prompt failed %v\n", err)
+	}
+
+	switch result {
+	case "Credit Card":
+		//TODO:
+	case "PayPal":
+		//TODO:
+	case "Crypto Wallet":
+		//TODO:
+	}
+}
+
 func main() {
 	logger := helper.InitializeLogging(DebugMode)
+	//TODO: create a generic terminal interaction function
+	items := []string{"Investment Calculator", "Create User Account", "Payment"}
 
-	operation := helper.RequestOperationMode(UserOperationRequest)
+	prompt := promptui.Select{
+		Label: "Select Operation Mode",
+		Items: items,
+	}
 
-	if operation == 1 {
+	_, result, err := prompt.Run()
+	if err != nil {
+		log.Fatalf("Prompt failed %v\n", err)
+	}
+
+	switch result {
+	case "Investment Calculator":
 		start_calculator(logger)
-	}
-	if operation == 2 {
+	case "Create User Account":
 		process_user_request(logger)
+	case "Payment":
+		select_payment(logger)
 	}
-
 }

@@ -16,3 +16,6 @@
 {"time":"2025-04-05T22:48:43.3070654+02:00","level":"INFO","msg":"Successfully saved user data to json file","userInput":"Yolo;Kanliu;Hello Request"}
 {"time":"2025-04-05T22:50:03.625465+02:00","level":"INFO","msg":"Successfully saved user data to json file","userInput":"Yoldk;lkeout;testtesttes"}
 {"time":"2025-04-06T10:46:55.4511658+02:00","level":"INFO","msg":"Successfully saved user data to json file","userInput":"NextName;LastNextName;only for Testing"}
+{"time":"2025-04-21T12:41:18.8886161+02:00","level":"INFO","msg":"Successfully saved user data to json file","userInput":"Juan;Carlos;yolo"}
+{"time":"2025-04-23T22:23:11.821421+02:00","level":"INFO","msg":"Successfully saved user data to json file","userInput":";Last;where is first name"}
+{"time":"2025-04-23T22:24:27.0565511+02:00","level":"INFO","msg":"Successfully saved user data to json file","userInput":"fist;last;test new prompt interface"}

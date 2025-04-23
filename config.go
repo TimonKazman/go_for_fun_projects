@@ -3,7 +3,6 @@ package main
 const DebugMode = false
 
 const UserOperationRequest = "What would you like to do? \n######################### Investment Calculator (1) ################### Create User Account (2) \nEnter a number here: "
-
 const Customer = "Enter your name: "
 
 const InvestInput = "Enter your preferred investment amount in euros (€): "
